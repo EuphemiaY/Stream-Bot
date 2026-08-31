@@ -3,6 +3,7 @@ const Euphpokelink = require('./Euphparty.json');
 const Ivypokelink = require('./IvyParty.json')
 // console.log(pokelink["party"][0]["pokemon"]["localizedNames"]["primary"]["speciesName"]);
 // console.log(pokelink["party"][0]["pokemon"]["nickname"]);
+// Technically speaking you don't need this and it changes on session, but keeping it here as a way to find ports if needed is nice
 const session = require('C:\\Users\\beast\\Downloads\\Pokelink\\sessions\\bcc6e8ad-9eff-4ff6-bb6a-4d6ec6d91246\\pokelink\\session.json')
 console.log("The port is", session["connection"]["port"])
 
@@ -175,13 +176,13 @@ function ShowIvyMovesetNickname(PokemonNickname) {
 }
 
 function EuphPokemon() {
-    pokemon_list = []
+    pokemon_list = ["For Euph: \n"]
     for (var i = 0; i < 6; i++) {
         try {
             pokemon = Euphpokelink["party"][i]["pokemon"]
             species_name = (pokemon["localizedNames"]["primary"]["speciesName"])
             nickname = (pokemon["nickname"])
-            pokemon_list += (nickname + " is a " + species_name + " for Euph\n")
+            pokemon_list += (nickname + " is a " + species_name + " \n")
         }
         catch {
 
@@ -191,13 +192,13 @@ function EuphPokemon() {
 };
 
 function IvyPokemon() {
-    pokemon_list = []
+    pokemon_list = ["For Ivy: \n"]
     for (var i = 0; i < 6; i++) {
         try {
             pokemon = Ivypokelink["party"][i]["pokemon"]
             species_name = (pokemon["localizedNames"]["primary"]["speciesName"])
             nickname = (pokemon["nickname"])
-            pokemon_list += (nickname + " is a " + species_name + " for Ivy\n")
+            pokemon_list += (nickname + " is a " + species_name + " \n")
         }
         catch {
 

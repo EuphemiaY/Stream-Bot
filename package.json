@@ -4,12 +4,23 @@
   "description": "Twitch chat bot for Eupg",
   "license": "ISC",
   "author": "Euph",
-  "type": "module", 
+  "type": "module",
   "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "TwitchBot":"node ./bot.mjs",
+    "IvyParty":"node ./PartyIvy.cjs",
+    "EuphParty":"node ./PartyEuph.cjs",
+    "UpdateParties":"concurrently \"npm run EuphParty\" \"npm run IvyParty\" ",
+    "UpdatePartiesRunBot":"concurrently \"npm run EuphParty\" \"npm run IvyParty\" \"npm run TwitchBot\" "
   },
   "dependencies": {
+    "fs": "^0.0.1-security",
+    "protobufjs": "^8.7.2",
+    "socket.io-client": "^2.2.0",
     "ws": "^8.21.0"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.5"
   }
 }
