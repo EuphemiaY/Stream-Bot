@@ -1,0 +1,674 @@
+{
+    "channel": "client:party:updated",
+    "username": "Euph",
+    "party": [
+        {
+            "pokemon": {
+                "pid": {
+                    "low": 980311737,
+                    "high": 0,
+                    "unsigned": true
+                },
+                "exp": 498,
+                "level": 14,
+                "field4": 2030,
+                "field5": 2035,
+                "field6": 98.81796690307328,
+                "hp": {
+                    "max": 44,
+                    "current": 44
+                },
+                "moves": [
+                    {
+                        "moveId": 33,
+                        "pp": 35,
+                        "maxPp": 35,
+                        "info": {
+                            "name": "Tackle",
+                            "type": "Normal"
+                        },
+                        "infoDuplicate": {
+                            "name": "Tackle",
+                            "type": "Normal"
+                        }
+                    },
+                    {
+                        "moveId": 39,
+                        "pp": 30,
+                        "maxPp": 30,
+                        "info": {
+                            "name": "Tail Whip",
+                            "type": "Normal"
+                        },
+                        "infoDuplicate": {
+                            "name": "Tail Whip",
+                            "type": "Normal"
+                        }
+                    },
+                    {
+                        "moveId": 52,
+                        "pp": 25,
+                        "maxPp": 25,
+                        "info": {
+                            "name": "Ember",
+                            "type": "Fire"
+                        },
+                        "infoDuplicate": {
+                            "name": "Ember",
+                            "type": "Fire"
+                        }
+                    },
+                    {
+                        "moveId": 316,
+                        "pp": 40,
+                        "maxPp": 40,
+                        "info": {
+                            "name": "Odor Sleuth",
+                            "type": "Normal"
+                        },
+                        "infoDuplicate": {
+                            "name": "Odor Sleuth",
+                            "type": "Normal"
+                        }
+                    }
+                ],
+                "ivs": {
+                    "atk": 31,
+                    "def": 3,
+                    "spatk": 4,
+                    "spdef": 19,
+                    "speed": 8,
+                    "hp": 16
+                },
+                "evs": {
+                    "atk": 3,
+                    "spatk": 2,
+                    "speed": 8
+                },
+                "localizedNames": {
+                    "primary": {
+                        "speciesName": "Tepig",
+                        "status": "Healthy",
+                        "types": [
+                            "Fire"
+                        ],
+                        "hiddenPowerType": "Fire",
+                        "pokeballName": "Poké Ball",
+                        "abilityName": "Blaze",
+                        "isShinyText": "No",
+                        "locationMetName": "Nuvema Town",
+                        "natureName": "Careful"
+                    },
+                    "secondary": {
+                        "speciesName": "Tepig",
+                        "status": "Healthy",
+                        "types": [
+                            "Fire"
+                        ],
+                        "hiddenPowerType": "Fire",
+                        "pokeballName": "Poké Ball",
+                        "abilityName": "Blaze",
+                        "isShinyText": "No",
+                        "locationMetName": "Nuvema Town",
+                        "natureName": "Careful"
+                    }
+                },
+                "color": "Red",
+                "spriteUrl": "$POKELINK_HOST/assets:/assets/sprites/pokemon/home/normal/tepig.png",
+                "iconUrl": "$POKELINK_HOST/pokelink:/pkhex/img/sprites/a_498.png",
+                "nickname": "Bushi",
+                "heldItemId": 9,
+                "abilityId": 23,
+                "locationMetId": 4,
+                "field27": 131,
+                "field28": 66,
+                "levelMet": 4,
+                "hiddenPowerPower": 54,
+                "calculatedStats": {
+                    "atk": 26,
+                    "def": 18,
+                    "spatk": 16,
+                    "spdef": 22,
+                    "speed": 19,
+                    "hp": 44
+                },
+                "pidString": "980311737"
+            },
+            "field2": 5
+        },
+        {
+            "pokemon": {
+                "pid": {
+                    "low": -1220213636,
+                    "high": 0,
+                    "unsigned": true
+                },
+                "exp": 504,
+                "level": 14,
+                "field4": 3173,
+                "field5": 3375,
+                "field6": 67.98732171156894,
+                "hp": {
+                    "max": 37,
+                    "current": 37
+                },
+                "moves": [
+                    {
+                        "moveId": 15,
+                        "pp": 30,
+                        "maxPp": 30,
+                        "info": {
+                            "name": "Cut",
+                            "type": "Normal"
+                        },
+                        "infoDuplicate": {
+                            "name": "Cut",
+                            "type": "Normal"
+                        }
+                    },
+                    {
+                        "moveId": 28,
+                        "pp": 15,
+                        "maxPp": 15,
+                        "info": {
+                            "name": "Sand Attack",
+                            "type": "Ground"
+                        },
+                        "infoDuplicate": {
+                            "name": "Sand Attack",
+                            "type": "Ground"
+                        }
+                    },
+                    {
+                        "moveId": 44,
+                        "pp": 25,
+                        "maxPp": 25,
+                        "info": {
+                            "name": "Bite",
+                            "type": "Dark"
+                        },
+                        "infoDuplicate": {
+                            "name": "Bite",
+                            "type": "Dark"
+                        }
+                    },
+                    {
+                        "moveId": 197,
+                        "pp": 5,
+                        "maxPp": 5,
+                        "info": {
+                            "name": "Detect",
+                            "type": "Fighting"
+                        },
+                        "infoDuplicate": {
+                            "name": "Detect",
+                            "type": "Fighting"
+                        }
+                    }
+                ],
+                "ivs": {
+                    "atk": 30,
+                    "def": 21,
+                    "spatk": 11,
+                    "spdef": 16,
+                    "speed": 30,
+                    "hp": 4
+                },
+                "evs": {
+                    "atk": 2,
+                    "speed": 3
+                },
+                "localizedNames": {
+                    "primary": {
+                        "speciesName": "Patrat",
+                        "status": "Healthy",
+                        "types": [
+                            "Normal"
+                        ],
+                        "hiddenPowerType": "Ground",
+                        "pokeballName": "Premier Ball",
+                        "abilityName": "Keen Eye",
+                        "isShinyText": "No",
+                        "locationMetName": "Route 2",
+                        "natureName": "Careful"
+                    },
+                    "secondary": {
+                        "speciesName": "Patrat",
+                        "status": "Healthy",
+                        "types": [
+                            "Normal"
+                        ],
+                        "hiddenPowerType": "Ground",
+                        "pokeballName": "Premier Ball",
+                        "abilityName": "Keen Eye",
+                        "isShinyText": "No",
+                        "locationMetName": "Route 2",
+                        "natureName": "Careful"
+                    }
+                },
+                "color": "Brown",
+                "spriteUrl": "$POKELINK_HOST/assets:/assets/sprites/pokemon/home/normal/patrat.png",
+                "iconUrl": "$POKELINK_HOST/pokelink:/pkhex/img/sprites/a_504.png",
+                "nickname": "THE Luna",
+                "isFemale": 1,
+                "heldItemId": 4,
+                "abilityId": 23,
+                "locationMetId": 12,
+                "field27": 126,
+                "field28": 51,
+                "levelMet": 15,
+                "hiddenPowerPower": 46,
+                "calculatedStats": {
+                    "atk": 24,
+                    "def": 18,
+                    "spatk": 14,
+                    "spdef": 19,
+                    "speed": 20,
+                    "hp": 37
+                },
+                "pidString": "3074753660"
+            },
+            "field2": 5
+        },
+        {
+            "pokemon": {
+                "pid": {
+                    "low": 1018705437,
+                    "high": 0,
+                    "unsigned": true
+                },
+                "exp": 506,
+                "level": 14,
+                "field4": 1920,
+                "field5": 2035,
+                "field6": 72.81323877068559,
+                "hp": {
+                    "max": 39,
+                    "current": 39
+                },
+                "moves": [
+                    {
+                        "moveId": 43,
+                        "pp": 30,
+                        "maxPp": 30,
+                        "info": {
+                            "name": "Leer",
+                            "type": "Normal"
+                        },
+                        "infoDuplicate": {
+                            "name": "Leer",
+                            "type": "Normal"
+                        }
+                    },
+                    {
+                        "moveId": 33,
+                        "pp": 35,
+                        "maxPp": 35,
+                        "info": {
+                            "name": "Tackle",
+                            "type": "Normal"
+                        },
+                        "infoDuplicate": {
+                            "name": "Tackle",
+                            "type": "Normal"
+                        }
+                    },
+                    {
+                        "moveId": 316,
+                        "pp": 40,
+                        "maxPp": 40,
+                        "info": {
+                            "name": "Odor Sleuth",
+                            "type": "Normal"
+                        },
+                        "infoDuplicate": {
+                            "name": "Odor Sleuth",
+                            "type": "Normal"
+                        }
+                    },
+                    {
+                        "moveId": 44,
+                        "pp": 25,
+                        "maxPp": 25,
+                        "info": {
+                            "name": "Bite",
+                            "type": "Dark"
+                        },
+                        "infoDuplicate": {
+                            "name": "Bite",
+                            "type": "Dark"
+                        }
+                    }
+                ],
+                "ivs": {
+                    "atk": 12,
+                    "def": 29,
+                    "spatk": 12,
+                    "spdef": 3,
+                    "speed": 10,
+                    "hp": 18
+                },
+                "evs": {
+                    "atk": 3,
+                    "spatk": 1,
+                    "speed": 5
+                },
+                "localizedNames": {
+                    "primary": {
+                        "speciesName": "Lillipup",
+                        "status": "Healthy",
+                        "types": [
+                            "Normal"
+                        ],
+                        "hiddenPowerType": "Steel",
+                        "pokeballName": "Poké Ball",
+                        "abilityName": "Vital Spirit",
+                        "isShinyText": "No",
+                        "locationMetName": "Route 1",
+                        "natureName": "Quiet"
+                    },
+                    "secondary": {
+                        "speciesName": "Lillipup",
+                        "status": "Healthy",
+                        "types": [
+                            "Normal"
+                        ],
+                        "hiddenPowerType": "Steel",
+                        "pokeballName": "Poké Ball",
+                        "abilityName": "Vital Spirit",
+                        "isShinyText": "No",
+                        "locationMetName": "Route 1",
+                        "natureName": "Quiet"
+                    }
+                },
+                "color": "Brown",
+                "spriteUrl": "$POKELINK_HOST/assets:/assets/sprites/pokemon/home/normal/lillipup.png",
+                "iconUrl": "$POKELINK_HOST/pokelink:/pkhex/img/sprites/a_506.png",
+                "nickname": "Potato",
+                "isFemale": 1,
+                "heldItemId": 8,
+                "abilityId": 17,
+                "locationMetId": 4,
+                "field27": 131,
+                "field28": 72,
+                "levelMet": 14,
+                "hiddenPowerPower": 56,
+                "calculatedStats": {
+                    "atk": 23,
+                    "def": 21,
+                    "spatk": 14,
+                    "spdef": 18,
+                    "speed": 18,
+                    "hp": 39
+                },
+                "pidString": "1018705437"
+            },
+            "field2": 5
+        },
+        {
+            "pokemon": {
+                "pid": {
+                    "low": 374645523,
+                    "high": 0,
+                    "unsigned": true
+                },
+                "exp": 531,
+                "level": 14,
+                "field4": 2195,
+                "field5": 2700,
+                "hp": {
+                    "max": 54,
+                    "current": 54
+                },
+                "moves": [
+                    {
+                        "moveId": 45,
+                        "pp": 40,
+                        "maxPp": 40,
+                        "info": {
+                            "name": "Growl",
+                            "type": "Normal"
+                        },
+                        "infoDuplicate": {
+                            "name": "Growl",
+                            "type": "Normal"
+                        }
+                    },
+                    {
+                        "moveId": 270,
+                        "pp": 20,
+                        "maxPp": 20,
+                        "info": {
+                            "name": "Helping Hand",
+                            "type": "Normal"
+                        },
+                        "infoDuplicate": {
+                            "name": "Helping Hand",
+                            "type": "Normal"
+                        }
+                    },
+                    {
+                        "moveId": 287,
+                        "pp": 20,
+                        "maxPp": 20,
+                        "info": {
+                            "name": "Refresh",
+                            "type": "Normal"
+                        },
+                        "infoDuplicate": {
+                            "name": "Refresh",
+                            "type": "Normal"
+                        }
+                    },
+                    {
+                        "moveId": 3,
+                        "pp": 10,
+                        "maxPp": 10,
+                        "info": {
+                            "name": "Double Slap",
+                            "type": "Normal"
+                        },
+                        "infoDuplicate": {
+                            "name": "Double Slap",
+                            "type": "Normal"
+                        }
+                    }
+                ],
+                "ivs": {
+                    "atk": 11,
+                    "def": 16,
+                    "spatk": 29,
+                    "spdef": 9,
+                    "speed": 29,
+                    "hp": 9
+                },
+                "evs": {
+                    "spatk": 1
+                },
+                "localizedNames": {
+                    "primary": {
+                        "speciesName": "Audino",
+                        "status": "Healthy",
+                        "types": [
+                            "Normal"
+                        ],
+                        "hiddenPowerType": "Ice",
+                        "pokeballName": "Poké Ball",
+                        "abilityName": "Healer",
+                        "isShinyText": "No",
+                        "locationMetName": "Dreamyard",
+                        "natureName": "Brave"
+                    },
+                    "secondary": {
+                        "speciesName": "Audino",
+                        "status": "Healthy",
+                        "types": [
+                            "Normal"
+                        ],
+                        "hiddenPowerType": "Ice",
+                        "pokeballName": "Poké Ball",
+                        "abilityName": "Healer",
+                        "isShinyText": "No",
+                        "locationMetName": "Dreamyard",
+                        "natureName": "Brave"
+                    }
+                },
+                "color": "Pink",
+                "spriteUrl": "$POKELINK_HOST/assets:/assets/sprites/pokemon/home/normal/audino.png",
+                "iconUrl": "$POKELINK_HOST/pokelink:/pkhex/img/sprites/a_531.png",
+                "nickname": "Weedy⑱",
+                "isFemale": 1,
+                "heldItemId": 14,
+                "abilityId": 2,
+                "locationMetId": 4,
+                "field27": 87,
+                "field28": 131,
+                "levelMet": 32,
+                "hiddenPowerPower": 31,
+                "calculatedStats": {
+                    "atk": 25,
+                    "def": 31,
+                    "spatk": 25,
+                    "spdef": 30,
+                    "speed": 20,
+                    "hp": 54
+                },
+                "pidString": "374645523"
+            },
+            "field2": 5
+        },
+        {
+            "pokemon": {
+                "pid": {
+                    "low": -669332798,
+                    "high": 0,
+                    "unsigned": true
+                },
+                "exp": 519,
+                "level": 14,
+                "field4": 1612,
+                "field5": 2035,
+                "hp": {
+                    "max": 38,
+                    "current": 38
+                },
+                "moves": [
+                    {
+                        "moveId": 16,
+                        "pp": 35,
+                        "maxPp": 35,
+                        "info": {
+                            "name": "Gust",
+                            "type": "Flying"
+                        },
+                        "infoDuplicate": {
+                            "name": "Gust",
+                            "type": "Flying"
+                        }
+                    },
+                    {
+                        "moveId": 45,
+                        "pp": 40,
+                        "maxPp": 40,
+                        "info": {
+                            "name": "Growl",
+                            "type": "Normal"
+                        },
+                        "infoDuplicate": {
+                            "name": "Growl",
+                            "type": "Normal"
+                        }
+                    },
+                    {
+                        "moveId": 43,
+                        "pp": 30,
+                        "maxPp": 30,
+                        "info": {
+                            "name": "Leer",
+                            "type": "Normal"
+                        },
+                        "infoDuplicate": {
+                            "name": "Leer",
+                            "type": "Normal"
+                        }
+                    },
+                    {
+                        "moveId": 98,
+                        "pp": 30,
+                        "maxPp": 30,
+                        "info": {
+                            "name": "Quick Attack",
+                            "type": "Normal"
+                        },
+                        "infoDuplicate": {
+                            "name": "Quick Attack",
+                            "type": "Normal"
+                        }
+                    }
+                ],
+                "ivs": {
+                    "atk": 10,
+                    "def": 25,
+                    "spatk": 26,
+                    "spdef": 16,
+                    "speed": 8,
+                    "hp": 6
+                },
+                "evs": {},
+                "localizedNames": {
+                    "primary": {
+                        "speciesName": "Pidove",
+                        "status": "Healthy",
+                        "types": [
+                            "Normal",
+                            "Flying"
+                        ],
+                        "hiddenPowerType": "Normal",
+                        "pokeballName": "Poké Ball",
+                        "abilityName": "Big Pecks",
+                        "isShinyText": "No",
+                        "locationMetName": "Route 3",
+                        "natureName": "Docile"
+                    },
+                    "secondary": {
+                        "speciesName": "Pidove",
+                        "status": "Healthy",
+                        "types": [
+                            "Normal",
+                            "Flying"
+                        ],
+                        "hiddenPowerType": "Normal",
+                        "pokeballName": "Poké Ball",
+                        "abilityName": "Big Pecks",
+                        "isShinyText": "No",
+                        "locationMetName": "Route 3",
+                        "natureName": "Docile"
+                    }
+                },
+                "color": "Gray",
+                "spriteUrl": "$POKELINK_HOST/assets:/assets/sprites/pokemon/home/normal/pidove.png",
+                "iconUrl": "$POKELINK_HOST/pokelink:/pkhex/img/sprites/a_519.png",
+                "nickname": "200% Nat",
+                "abilityId": 6,
+                "locationMetId": 4,
+                "field27": 103,
+                "field28": 145,
+                "levelMet": 16,
+                "hiddenPowerPower": 42,
+                "calculatedStats": {
+                    "atk": 21,
+                    "def": 22,
+                    "spatk": 18,
+                    "spdef": 15,
+                    "speed": 18,
+                    "hp": 38
+                },
+                "pidString": "3625634498"
+            },
+            "field2": 5
+        },
+        {
+            "field2": 5
+        }
+    ]
+}

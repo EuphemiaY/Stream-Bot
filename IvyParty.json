@@ -1,0 +1,650 @@
+{
+    "channel": "client:party:updated",
+    "username": "IvyRolls",
+    "party": [
+        {
+            "pokemon": {
+                "pid": {
+                    "low": -276635147,
+                    "high": 0,
+                    "unsigned": true
+                },
+                "exp": 498,
+                "level": 16,
+                "field4": 2630,
+                "field5": 3120,
+                "field6": 16.23931623931624,
+                "hp": {
+                    "max": 50,
+                    "current": 46
+                },
+                "moves": [
+                    {
+                        "moveId": 33,
+                        "pp": 34,
+                        "maxPp": 35,
+                        "info": {
+                            "name": "Tackle",
+                            "type": "Normal"
+                        },
+                        "infoDuplicate": {
+                            "name": "Tackle",
+                            "type": "Normal"
+                        }
+                    },
+                    {
+                        "moveId": 488,
+                        "pp": 18,
+                        "maxPp": 20,
+                        "info": {
+                            "name": "Flame Charge",
+                            "type": "Fire"
+                        },
+                        "infoDuplicate": {
+                            "name": "Flame Charge",
+                            "type": "Fire"
+                        }
+                    },
+                    {
+                        "moveId": 52,
+                        "pp": 23,
+                        "maxPp": 25,
+                        "info": {
+                            "name": "Ember",
+                            "type": "Fire"
+                        },
+                        "infoDuplicate": {
+                            "name": "Ember",
+                            "type": "Fire"
+                        }
+                    },
+                    {
+                        "moveId": 316,
+                        "pp": 40,
+                        "maxPp": 40,
+                        "info": {
+                            "name": "Odor Sleuth",
+                            "type": "Normal"
+                        },
+                        "infoDuplicate": {
+                            "name": "Odor Sleuth",
+                            "type": "Normal"
+                        }
+                    }
+                ],
+                "ivs": {
+                    "atk": 5,
+                    "def": 25,
+                    "spatk": 20,
+                    "spdef": 14,
+                    "hp": 26
+                },
+                "evs": {
+                    "atk": 10,
+                    "spatk": 3,
+                    "speed": 8
+                },
+                "localizedNames": {
+                    "primary": {
+                        "speciesName": "Tepig",
+                        "status": "Healthy",
+                        "types": [
+                            "Fire"
+                        ],
+                        "hiddenPowerType": "Fighting",
+                        "pokeballName": "Poké Ball",
+                        "abilityName": "Blaze",
+                        "isShinyText": "No",
+                        "locationMetName": "Nuvema Town",
+                        "natureName": "Mild"
+                    },
+                    "secondary": {
+                        "speciesName": "Tepig",
+                        "status": "Healthy",
+                        "types": [
+                            "Fire"
+                        ],
+                        "hiddenPowerType": "Fighting",
+                        "pokeballName": "Poké Ball",
+                        "abilityName": "Blaze",
+                        "isShinyText": "No",
+                        "locationMetName": "Nuvema Town",
+                        "natureName": "Mild"
+                    }
+                },
+                "color": "Red",
+                "spriteUrl": "$POKELINK_HOST/assets:/assets/sprites/pokemon/home/normal/tepig.png",
+                "iconUrl": "$POKELINK_HOST/pokelink:/pkhex/img/sprites/a_498.png",
+                "nickname": "Buchi",
+                "heldItemId": 1,
+                "abilityId": 16,
+                "locationMetId": 4,
+                "field27": 144,
+                "field28": 66,
+                "levelMet": 4,
+                "calculatedStats": {
+                    "atk": 26,
+                    "def": 20,
+                    "spatk": 24,
+                    "spdef": 21,
+                    "speed": 19,
+                    "hp": 50
+                },
+                "pidString": "4018332149"
+            },
+            "field2": 7
+        },
+        {
+            "pokemon": {
+                "pid": {
+                    "low": -895800625,
+                    "high": 0,
+                    "unsigned": true
+                },
+                "exp": 506,
+                "level": 14,
+                "field4": 1736,
+                "field5": 2035,
+                "field6": 29.314420803782504,
+                "hp": {
+                    "max": 40,
+                    "current": 35
+                },
+                "moves": [
+                    {
+                        "moveId": 43,
+                        "pp": 30,
+                        "maxPp": 30,
+                        "info": {
+                            "name": "Leer",
+                            "type": "Normal"
+                        },
+                        "infoDuplicate": {
+                            "name": "Leer",
+                            "type": "Normal"
+                        }
+                    },
+                    {
+                        "moveId": 33,
+                        "pp": 35,
+                        "maxPp": 35,
+                        "info": {
+                            "name": "Tackle",
+                            "type": "Normal"
+                        },
+                        "infoDuplicate": {
+                            "name": "Tackle",
+                            "type": "Normal"
+                        }
+                    },
+                    {
+                        "moveId": 316,
+                        "pp": 40,
+                        "maxPp": 40,
+                        "info": {
+                            "name": "Odor Sleuth",
+                            "type": "Normal"
+                        },
+                        "infoDuplicate": {
+                            "name": "Odor Sleuth",
+                            "type": "Normal"
+                        }
+                    },
+                    {
+                        "moveId": 44,
+                        "pp": 24,
+                        "maxPp": 25,
+                        "info": {
+                            "name": "Bite",
+                            "type": "Dark"
+                        },
+                        "infoDuplicate": {
+                            "name": "Bite",
+                            "type": "Dark"
+                        }
+                    }
+                ],
+                "ivs": {
+                    "atk": 22,
+                    "def": 13,
+                    "spatk": 3,
+                    "spdef": 6,
+                    "speed": 15,
+                    "hp": 25
+                },
+                "evs": {
+                    "speed": 3
+                },
+                "localizedNames": {
+                    "primary": {
+                        "speciesName": "Lillipup",
+                        "status": "Healthy",
+                        "types": [
+                            "Normal"
+                        ],
+                        "hiddenPowerType": "Bug",
+                        "pokeballName": "Poké Ball",
+                        "abilityName": "Pickup",
+                        "isShinyText": "No",
+                        "locationMetName": "Route 1",
+                        "natureName": "Hasty"
+                    },
+                    "secondary": {
+                        "speciesName": "Lillipup",
+                        "status": "Healthy",
+                        "types": [
+                            "Normal"
+                        ],
+                        "hiddenPowerType": "Bug",
+                        "pokeballName": "Poké Ball",
+                        "abilityName": "Pickup",
+                        "isShinyText": "No",
+                        "locationMetName": "Route 1",
+                        "natureName": "Hasty"
+                    }
+                },
+                "color": "Brown",
+                "spriteUrl": "$POKELINK_HOST/assets:/assets/sprites/pokemon/home/normal/lillipup.png",
+                "iconUrl": "$POKELINK_HOST/pokelink:/pkhex/img/sprites/a_506.png",
+                "field19": 2,
+                "heldItemId": 6,
+                "abilityId": 11,
+                "locationMetId": 4,
+                "field27": 133,
+                "field28": 53,
+                "levelMet": 14,
+                "calculatedStats": {
+                    "atk": 24,
+                    "def": 17,
+                    "spatk": 12,
+                    "spdef": 18,
+                    "speed": 24,
+                    "hp": 40
+                },
+                "pidString": "3399166671"
+            },
+            "field2": 7
+        },
+        {
+            "pokemon": {
+                "pid": {
+                    "low": 225954742,
+                    "high": 0,
+                    "unsigned": true
+                },
+                "exp": 504,
+                "level": 14,
+                "field4": 2744,
+                "field5": 3375,
+                "hp": {
+                    "max": 40,
+                    "current": 40
+                },
+                "moves": [
+                    {
+                        "moveId": 33,
+                        "pp": 35,
+                        "maxPp": 35,
+                        "info": {
+                            "name": "Tackle",
+                            "type": "Normal"
+                        },
+                        "infoDuplicate": {
+                            "name": "Tackle",
+                            "type": "Normal"
+                        }
+                    },
+                    {
+                        "moveId": 15,
+                        "pp": 30,
+                        "maxPp": 30,
+                        "info": {
+                            "name": "Cut",
+                            "type": "Normal"
+                        },
+                        "infoDuplicate": {
+                            "name": "Cut",
+                            "type": "Normal"
+                        }
+                    },
+                    {
+                        "moveId": 44,
+                        "pp": 25,
+                        "maxPp": 25,
+                        "info": {
+                            "name": "Bite",
+                            "type": "Dark"
+                        },
+                        "infoDuplicate": {
+                            "name": "Bite",
+                            "type": "Dark"
+                        }
+                    },
+                    {
+                        "moveId": 117,
+                        "pp": 10,
+                        "maxPp": 10,
+                        "info": {
+                            "name": "Bide",
+                            "type": "Normal"
+                        },
+                        "infoDuplicate": {
+                            "name": "Bide",
+                            "type": "Normal"
+                        }
+                    }
+                ],
+                "ivs": {
+                    "atk": 20,
+                    "def": 19,
+                    "spatk": 21,
+                    "spdef": 9,
+                    "speed": 13,
+                    "hp": 29
+                },
+                "evs": {
+                    "atk": 2
+                },
+                "localizedNames": {
+                    "primary": {
+                        "speciesName": "Patrat",
+                        "status": "Healthy",
+                        "types": [
+                            "Normal"
+                        ],
+                        "hiddenPowerType": "Ice",
+                        "pokeballName": "Poké Ball",
+                        "abilityName": "Keen Eye",
+                        "isShinyText": "No",
+                        "locationMetName": "Route 1",
+                        "natureName": "Rash"
+                    },
+                    "secondary": {
+                        "speciesName": "Patrat",
+                        "status": "Healthy",
+                        "types": [
+                            "Normal"
+                        ],
+                        "hiddenPowerType": "Ice",
+                        "pokeballName": "Poké Ball",
+                        "abilityName": "Keen Eye",
+                        "isShinyText": "No",
+                        "locationMetName": "Route 1",
+                        "natureName": "Rash"
+                    }
+                },
+                "color": "Brown",
+                "spriteUrl": "$POKELINK_HOST/assets:/assets/sprites/pokemon/home/normal/patrat.png",
+                "iconUrl": "$POKELINK_HOST/pokelink:/pkhex/img/sprites/a_504.png",
+                "nickname": "Potato",
+                "heldItemId": 14,
+                "abilityId": 19,
+                "locationMetId": 4,
+                "field27": 146,
+                "field28": 51,
+                "levelMet": 14,
+                "calculatedStats": {
+                    "atk": 23,
+                    "def": 18,
+                    "spatk": 18,
+                    "spdef": 15,
+                    "speed": 18,
+                    "hp": 40
+                },
+                "pidString": "225954742"
+            },
+            "field2": 7
+        },
+        {
+            "pokemon": {
+                "pid": {
+                    "low": 377823749,
+                    "high": 0,
+                    "unsigned": true
+                },
+                "exp": 511,
+                "level": 14,
+                "field4": 3243,
+                "field5": 3375,
+                "field6": 79.08082408874802,
+                "hp": {
+                    "max": 40,
+                    "current": 22
+                },
+                "moves": [
+                    {
+                        "moveId": 10,
+                        "pp": 35,
+                        "maxPp": 35,
+                        "info": {
+                            "name": "Scratch",
+                            "type": "Normal"
+                        },
+                        "infoDuplicate": {
+                            "name": "Scratch",
+                            "type": "Normal"
+                        }
+                    },
+                    {
+                        "moveId": 154,
+                        "pp": 15,
+                        "maxPp": 15,
+                        "info": {
+                            "name": "Fury Swipes",
+                            "type": "Normal"
+                        },
+                        "infoDuplicate": {
+                            "name": "Fury Swipes",
+                            "type": "Normal"
+                        }
+                    },
+                    {
+                        "moveId": 122,
+                        "pp": 30,
+                        "maxPp": 30,
+                        "info": {
+                            "name": "Lick",
+                            "type": "Ghost"
+                        },
+                        "infoDuplicate": {
+                            "name": "Lick",
+                            "type": "Ghost"
+                        }
+                    },
+                    {
+                        "moveId": 22,
+                        "pp": 9,
+                        "maxPp": 25,
+                        "info": {
+                            "name": "Vine Whip",
+                            "type": "Grass"
+                        },
+                        "infoDuplicate": {
+                            "name": "Vine Whip",
+                            "type": "Grass"
+                        }
+                    }
+                ],
+                "ivs": {
+                    "atk": 6,
+                    "def": 7,
+                    "spatk": 29,
+                    "spdef": 4,
+                    "speed": 2,
+                    "hp": 18
+                },
+                "evs": {
+                    "spatk": 2,
+                    "speed": 3
+                },
+                "localizedNames": {
+                    "primary": {
+                        "speciesName": "Pansage",
+                        "status": "Healthy",
+                        "types": [
+                            "Grass"
+                        ],
+                        "hiddenPowerType": "Ground",
+                        "pokeballName": "Poké Ball",
+                        "abilityName": "Gluttony",
+                        "isShinyText": "No",
+                        "locationMetName": "Dreamyard",
+                        "natureName": "Naughty"
+                    },
+                    "secondary": {
+                        "speciesName": "Pansage",
+                        "status": "Healthy",
+                        "types": [
+                            "Grass"
+                        ],
+                        "hiddenPowerType": "Ground",
+                        "pokeballName": "Poké Ball",
+                        "abilityName": "Gluttony",
+                        "isShinyText": "No",
+                        "locationMetName": "Dreamyard",
+                        "natureName": "Naughty"
+                    }
+                },
+                "color": "Green",
+                "spriteUrl": "$POKELINK_HOST/assets:/assets/sprites/pokemon/home/normal/pansage.png",
+                "iconUrl": "$POKELINK_HOST/pokelink:/pkhex/img/sprites/a_511.png",
+                "nickname": "Weedy⑱",
+                "isFemale": 2,
+                "heldItemId": 4,
+                "abilityId": 4,
+                "locationMetId": 4,
+                "field27": 108,
+                "field28": 82,
+                "levelMet": 32,
+                "calculatedStats": {
+                    "atk": 22,
+                    "def": 19,
+                    "spatk": 23,
+                    "spdef": 17,
+                    "speed": 23,
+                    "hp": 40
+                },
+                "pidString": "377823749"
+            },
+            "field2": 7
+        },
+        {
+            "pokemon": {
+                "pid": {
+                    "low": -1033065999,
+                    "high": 0,
+                    "unsigned": true
+                },
+                "exp": 522,
+                "level": 8,
+                "field4": 512,
+                "field5": 729,
+                "hp": {
+                    "max": 27,
+                    "current": 8
+                },
+                "moves": [
+                    {
+                        "moveId": 98,
+                        "pp": 30,
+                        "maxPp": 30,
+                        "info": {
+                            "name": "Quick Attack",
+                            "type": "Normal"
+                        },
+                        "infoDuplicate": {
+                            "name": "Quick Attack",
+                            "type": "Normal"
+                        }
+                    },
+                    {
+                        "moveId": 39,
+                        "pp": 29,
+                        "maxPp": 30,
+                        "info": {
+                            "name": "Tail Whip",
+                            "type": "Normal"
+                        },
+                        "infoDuplicate": {
+                            "name": "Tail Whip",
+                            "type": "Normal"
+                        }
+                    },
+                    {
+                        "moveId": 268,
+                        "pp": 20,
+                        "maxPp": 20,
+                        "info": {
+                            "name": "Charge",
+                            "type": "Electric"
+                        },
+                        "infoDuplicate": {
+                            "name": "Charge",
+                            "type": "Electric"
+                        }
+                    }
+                ],
+                "ivs": {
+                    "atk": 16,
+                    "def": 2,
+                    "spdef": 15,
+                    "speed": 2,
+                    "hp": 27
+                },
+                "evs": {},
+                "localizedNames": {
+                    "primary": {
+                        "speciesName": "Blitzle",
+                        "status": "Healthy",
+                        "types": [
+                            "Electric"
+                        ],
+                        "hiddenPowerType": "Ghost",
+                        "pokeballName": "Great Ball",
+                        "abilityName": "Lightning Rod",
+                        "isShinyText": "No",
+                        "locationMetName": "Route 3",
+                        "natureName": "Modest"
+                    },
+                    "secondary": {
+                        "speciesName": "Blitzle",
+                        "status": "Healthy",
+                        "types": [
+                            "Electric"
+                        ],
+                        "hiddenPowerType": "Ghost",
+                        "pokeballName": "Great Ball",
+                        "abilityName": "Lightning Rod",
+                        "isShinyText": "No",
+                        "locationMetName": "Route 3",
+                        "natureName": "Modest"
+                    }
+                },
+                "color": "Black",
+                "spriteUrl": "$POKELINK_HOST/assets:/assets/sprites/pokemon/home/normal/blitzle.png",
+                "iconUrl": "$POKELINK_HOST/pokelink:/pkhex/img/sprites/a_522.png",
+                "nickname": "200% Nat",
+                "field19": 149,
+                "heldItemId": 7,
+                "abilityId": 15,
+                "locationMetId": 3,
+                "field27": 70,
+                "field28": 31,
+                "levelMet": 16,
+                "calculatedStats": {
+                    "atk": 13,
+                    "def": 10,
+                    "spatk": 14,
+                    "spdef": 11,
+                    "speed": 17,
+                    "hp": 27
+                },
+                "pidString": "3261901297"
+            },
+            "field2": 7
+        },
+        {
+            "field2": 7
+        }
+    ]
+}

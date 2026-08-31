@@ -1,0 +1,15 @@
+{
+  "name": "twitch-bot",
+  "version": "1.0.0",
+  "description": "Twitch chat bot for Eupg",
+  "license": "ISC",
+  "author": "Euph",
+  "type": "module", 
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ws": "^8.21.0"
+  }
+}
