@@ -96,10 +96,10 @@ function handleWebSocketMessage(data) {
 					// Command for Pokemon will go here:
 					// data.payload.event.message.text.trim().slice(0,8)
 					if (data.payload.event.message.text.trim()== "?pokemon Euph") {
-						sendChatMessage(pokelink.EuphPokemon())
+						sendChatMessage(pokelink.ShowPokemon("Euph"))
 					}
 					if (data.payload.event.message.text.trim()== "?pokemon Ivy") {
-						sendChatMessage(pokelink.IvyPokemon())
+						sendChatMessage(pokelink.ShowPokemon("Ivy"))
 					}
 					if (data.payload.event.message.text.trim().slice(0,17) == "?pokemon Nickname") {
 						// I need to pop it in case the nickname has a space

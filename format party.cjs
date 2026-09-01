@@ -175,43 +175,32 @@ function ShowIvyMovesetNickname(PokemonNickname) {
 
 }
 
-function EuphPokemon() {
-    pokemon_list = ["For Euph: \n"]
+function ShowPokemon(player) {
+    // Depending on player we go to another JSON
+    if (player == "Euph") {
+        pokemon_list = ["For Euph: \n"];
+        pokemon = Euphpokelink["party"];
+    } if (player == "Ivy") {
+        pokemon_list = ["For Ivy: \n"];
+        pokemon = Ivypokelink["party"];
+    }
+    // This will need a try since the party length can be less than 6.
     for (var i = 0; i < 6; i++) {
         try {
-            pokemon = Euphpokelink["party"][i]["pokemon"]
-            species_name = (pokemon["localizedNames"]["primary"]["speciesName"])
-            nickname = (pokemon["nickname"])
+            species_name = (pokemon[i]["pokemon"]["localizedNames"]["primary"]["speciesName"])
+            nickname = (pokemon[i]["pokemon"]["nickname"])
             pokemon_list += (nickname + " is a " + species_name + " \n")
         }
         catch {
-
+            continue
         }
     }
-    return pokemon_list
-};
-
-function IvyPokemon() {
-    pokemon_list = ["For Ivy: \n"]
-    for (var i = 0; i < 6; i++) {
-        try {
-            pokemon = Ivypokelink["party"][i]["pokemon"]
-            species_name = (pokemon["localizedNames"]["primary"]["speciesName"])
-            nickname = (pokemon["nickname"])
-            pokemon_list += (nickname + " is a " + species_name + " \n")
-        }
-        catch {
-
-        }
-    }
-    return pokemon_list
-};
+    return pokemon_list;
+}
 
 module.exports = {
-    EuphPokemon,
+    ShowPokemon,
     readFileLines,
-    EuphPokemon,
-    IvyPokemon,
     ShowIvyMovesetNickname,
     ShowEuphMovesetNickname,
     ShowIvyMovesetPokemon,
