@@ -1,21 +1,10 @@
-const { PassThrough } = require('stream');
 const Euphpokelink = require('./Euphparty.json');
 const Ivypokelink = require('./IvyParty.json')
 // console.log(pokelink["party"][0]["pokemon"]["localizedNames"]["primary"]["speciesName"]);
 // console.log(pokelink["party"][0]["pokemon"]["nickname"]);
-// Technically speaking you don't need this and it changes on session, but keeping it here as a way to find ports if needed is nice
+// Technically speaking you don't need this and it changes on session, but keeping it here as a way to find ports if needed is nice for me. I think this would break if the file isn't found though
 const session = require('C:\\Users\\beast\\Downloads\\Pokelink\\sessions\\bcc6e8ad-9eff-4ff6-bb6a-4d6ec6d91246\\pokelink\\session.json')
 console.log("The port is", session["connection"]["port"])
-
-const fs = require('fs');
-
-
-// Creating a function which takes a file as input
-const readFileLines = filename =>
-    fs
-        .readFileSync(filename)
-        .toString('UTF8')
-        .split('\n');
 
 
 function EuphPokemonFinder(PokemonName) {
@@ -80,7 +69,6 @@ function NickNameFinder(PokemonNickName) {
 
 }
 
-// To add: Show moveset
 function ShowEuphMovesetPokemon(Pokemon) {
     moveset = "";
     for (var i = 0; i < 6; i++) {
@@ -200,7 +188,6 @@ function ShowPokemon(player) {
 
 module.exports = {
     ShowPokemon,
-    readFileLines,
     ShowIvyMovesetNickname,
     ShowEuphMovesetNickname,
     ShowIvyMovesetPokemon,
