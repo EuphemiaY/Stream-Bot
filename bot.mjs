@@ -109,9 +109,9 @@ function handleWebSocketMessage(data) {
 					if (data.payload.event.message.text.trim().slice(0,20) == "?pokemon Moveset Ivy") {
 						// I need to pop it in case the nickname has a space
 						nickname = data.payload.event.message.text.trim().split("Moveset Ivy ").pop().toString();
-						response = pokelink.ShowIvyMovesetNickname(nickname)
+						response = pokelink.ShowMovesetNickname(nickname, "Ivy");
 						if (response == "That's not a real nickname gamer"){
-							sendChatMessage(pokelink.ShowIvyMovesetPokemon(nickname))
+							sendChatMessage(pokelink.ShowMovesetPokemon(nickname, "Ivy"))
 						} else {
 							sendChatMessage(response)
 						}
@@ -120,9 +120,9 @@ function handleWebSocketMessage(data) {
 					if (data.payload.event.message.text.trim().slice(0,21) == "?pokemon Moveset Euph") {
 						// I need to pop it in case the nickname has a space
 						nickname = data.payload.event.message.text.trim().split("Moveset Euph ").pop().toString();
-						response = pokelink.ShowEuphMovesetNickname(nickname)
+						response = pokelink.ShowMovesetNickname(nickname, "Euph");
 						if (response == "That's not a real nickname gamer"){
-							sendChatMessage(pokelink.ShowEuphMovesetPokemon(nickname))
+							sendChatMessage(pokelink.ShowMovesetPokemon(nickname, "Euph"))
 						} else {
 							sendChatMessage(response)
 						}
