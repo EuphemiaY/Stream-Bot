@@ -28,16 +28,14 @@ function PokemonFinder(pokemonName, playerName) {
     return "Not a valid pokemon"
 }
 
-function NickNameFinder(pokemonNickName) {
-    nickname = pokemonNickName.toLowerCase();
+function NickNameFinder(pokemonNickname) {
     for (var i = 0; i < 6; i++) {
         try {
-            pokemon_nickname = EUPH_POKELINK["party"][i]["pokemon"]["nickname"];
-            if (pokemonNickname.toLowerCase() == nickname) {
+            if (pokemonNickname.toLowerCase() == EUPH_POKELINK["party"][i]["pokemon"]["nickname"].toLowerCase()) {
                 for (var z = 0; z < 6; z++) {
                     try {
-                        if (pokemon_nickname == IVY_POKELINK["party"][z]["pokemon"]["nickname"]) {
-                            return (nickname + " is a " + IVY_POKELINK["party"][z]["pokemon"]["localizedNames"]["primary"]["speciesName"] +
+                        if (pokemonNickname.toLowerCase() == IVY_POKELINK["party"][z]["pokemon"]["nickname"].toLowerCase()) {
+                            return (pokemonNickname + " is a " + IVY_POKELINK["party"][z]["pokemon"]["localizedNames"]["primary"]["speciesName"] +
                                 " for Ivy and a " + EUPH_POKELINK["party"][i]["pokemon"]["localizedNames"]["primary"]["speciesName"] +
                                 " for Euph"
                             )

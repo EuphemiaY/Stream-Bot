@@ -1,5 +1,5 @@
 import WebSocket from 'ws';
-import * as pokelink from "./format party.cjs"
+import * as pokelink from "./PokelinkBot/format party.cjs"
 import * as credentials from "./keys.cjs"
 
 console.log({
@@ -89,39 +89,39 @@ function handleWebSocketMessage(data) {
 					}
 
 					//VERY IMPORTANT TO UPDATE THIS!!!!
-					if (data.payload.event.message.text.trim()== "?help") {
+					if (data.payload.event.message.text.trim() == "?help") {
 						sendChatMessage("?pokemon Euph, ?pokemon Ivy, ?pokemon Nickname [nickname], ?pokemon Moveset [Ivy/Euph] [Nickname/Name]")
 					}
 
 					// Command for Pokemon will go here:
 					// data.payload.event.message.text.trim().slice(0,8)
-					if (data.payload.event.message.text.trim()== "?pokemon Euph") {
+					if (data.payload.event.message.text.trim() == "?pokemon Euph") {
 						sendChatMessage(pokelink.ShowPokemon("Euph"))
 					}
-					if (data.payload.event.message.text.trim()== "?pokemon Ivy") {
+					if (data.payload.event.message.text.trim() == "?pokemon Ivy") {
 						sendChatMessage(pokelink.ShowPokemon("Ivy"))
 					}
-					if (data.payload.event.message.text.trim().slice(0,17) == "?pokemon Nickname") {
+					if (data.payload.event.message.text.trim().slice(0, 17) == "?pokemon Nickname") {
 						// I need to pop it in case the nickname has a space
 						nickname = data.payload.event.message.text.trim().split("Nickname ").pop().toString();
 						sendChatMessage(pokelink.NickNameFinder(nickname))
 					}
-					if (data.payload.event.message.text.trim().slice(0,20) == "?pokemon Moveset Ivy") {
+					if (data.payload.event.message.text.trim().slice(0, 20) == "?pokemon Moveset Ivy") {
 						// I need to pop it in case the nickname has a space
 						nickname = data.payload.event.message.text.trim().split("Moveset Ivy ").pop().toString();
 						response = pokelink.ShowMovesetNickname(nickname, "Ivy");
-						if (response == "That's not a real nickname gamer"){
+						if (response == "That's not a real nickname gamer") {
 							sendChatMessage(pokelink.ShowMovesetPokemon(nickname, "Ivy"))
 						} else {
 							sendChatMessage(response)
 						}
 					}
 
-					if (data.payload.event.message.text.trim().slice(0,21) == "?pokemon Moveset Euph") {
+					if (data.payload.event.message.text.trim().slice(0, 21) == "?pokemon Moveset Euph") {
 						// I need to pop it in case the nickname has a space
 						nickname = data.payload.event.message.text.trim().split("Moveset Euph ").pop().toString();
 						response = pokelink.ShowMovesetNickname(nickname, "Euph");
-						if (response == "That's not a real nickname gamer"){
+						if (response == "That's not a real nickname gamer") {
 							sendChatMessage(pokelink.ShowMovesetPokemon(nickname, "Euph"))
 						} else {
 							sendChatMessage(response)
