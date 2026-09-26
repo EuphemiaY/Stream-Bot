@@ -1,6 +1,7 @@
-var EUPH_POKELINK = require('./EuphParty.json');
-console.log(EUPH_POKELINK);
-var IVY_POKELINK = require('./IvyRollsParty.json');
+var EUPH_POKELINK = require('./Euphparty.json');
+var IVY_POKELINK = require('./IvyParty.json');
+// Import the filesystem module
+const fs = require('fs');
 // console.log(pokelink["party"][0]["pokemon"]["localizedNames"]["primary"]["speciesName"]);
 // console.log(pokelink["party"][0]["pokemon"]["nickname"]);
 // Technically speaking you don't need this and it changes on session, but keeping it here as a way to find ports if needed is nice for me. I think this would break if the file isn't found though
@@ -56,17 +57,14 @@ function PokemonFinder(pokemonName, playerName) {
     return "Not a valid pokemon"
 }
 
-function NickNameFinder(pokemonNickName) {
-    EUPH_POKELINK =JSON.parse(fs.readFileSync('./Euphparty.json', 'utf8'))
-    nickname = pokemonNickName.toLowerCase();
+function NickNameFinder(pokemonNickname) {
     for (var i = 0; i < 6; i++) {
         try {
-            pokemon_nickname = EUPH_POKELINK["party"][i]["pokemon"]["nickname"];
-            if (pokemonNickname.toLowerCase() == nickname) {
+            if (pokemonNickname.toLowerCase() == EUPH_POKELINK["party"][i]["pokemon"]["nickname"].toLowerCase()) {
                 for (var z = 0; z < 6; z++) {
                     try {
-                        if (pokemon_nickname == IVY_POKELINK["party"][z]["pokemon"]["nickname"]) {
-                            return (nickname + " is a " + IVY_POKELINK["party"][z]["pokemon"]["localizedNames"]["primary"]["speciesName"] +
+                        if (pokemonNickname.toLowerCase() == IVY_POKELINK["party"][z]["pokemon"]["nickname"].toLowerCase()) {
+                            return (pokemonNickname + " is a " + IVY_POKELINK["party"][z]["pokemon"]["localizedNames"]["primary"]["speciesName"] +
                                 " for Ivy and a " + EUPH_POKELINK["party"][i]["pokemon"]["localizedNames"]["primary"]["speciesName"] +
                                 " for Euph"
                             )

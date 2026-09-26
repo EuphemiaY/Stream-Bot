@@ -22,12 +22,12 @@ async function main() {
 
   ws.on('message', (data) => {
     if (typeof data === 'string') {
-      console.log('Handshake response:', data);
+       // console.log('Handshake response:', data);
       return;
     }
 
     const { channel } = Base.decode(data);
-    console.log('Channel:', channel);
+     // console.log('Channel:', channel);
 
     if (channel === 'client:party:updated') {
       const decoded = PartyMessage.decode(data);
