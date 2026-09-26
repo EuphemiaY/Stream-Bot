@@ -1,12 +1,40 @@
-const EUPH_POKELINK = require('./Euphparty.json');
-const IVY_POKELINK = require('./IvyParty.json');
+var EUPH_POKELINK = require('./EuphParty.json');
+console.log(EUPH_POKELINK);
+var IVY_POKELINK = require('./IvyRollsParty.json');
 // console.log(pokelink["party"][0]["pokemon"]["localizedNames"]["primary"]["speciesName"]);
 // console.log(pokelink["party"][0]["pokemon"]["nickname"]);
 // Technically speaking you don't need this and it changes on session, but keeping it here as a way to find ports if needed is nice for me. I think this would break if the file isn't found though
+
+const fs = require('fs')
 const session = require('C:\\Users\\beast\\Downloads\\Pokelink\\sessions\\bcc6e8ad-9eff-4ff6-bb6a-4d6ec6d91246\\pokelink\\session.json')
 console.log("The port is", session["connection"]["port"])
 
+// Watching the Euph party file for changes to then update the file
+const watcherEuph = fs.watch("./Euphparty.json", (eventType) => {
+    if (eventType == "change"){
+        Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, 1000);
+        EUPH_POKELINK = JSON.parse(fs.readFileSync('./Euphparty.json', 'utf8'))
+    }
+})
+
+const watcherIvy = fs.watch("./IvyRollsParty.json", (eventType) => {
+    if (eventType == "change"){
+        Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, 1000);
+        IVY_POKELINK = JSON.parse(fs.readFileSync('./IvyRollsParty.json', 'utf8'))
+    }
+})
+
+watcherEuph.on("error", (err) => {
+  console.error("Watcher error:", err.message);
+});
+
+watcherIvy.on("error", (err) => {
+  console.error("Watcher error:", err.message);
+});
+
+
 function PokemonFinder(pokemonName, playerName) {
+    EUPH_POKELINK =JSON.parse(fs.readFileSync('./Euphparty.json', 'utf8'))
     for (var i = 0; i < 6; i++) {
         try {
             if (playerName == "Euph") {
@@ -29,6 +57,7 @@ function PokemonFinder(pokemonName, playerName) {
 }
 
 function NickNameFinder(pokemonNickName) {
+    EUPH_POKELINK =JSON.parse(fs.readFileSync('./Euphparty.json', 'utf8'))
     nickname = pokemonNickName.toLowerCase();
     for (var i = 0; i < 6; i++) {
         try {
@@ -57,6 +86,7 @@ function NickNameFinder(pokemonNickName) {
 }
 
 function ShowMovesetPokemon(pokemonName, playerName) {
+    EUPH_POKELINK =JSON.parse(fs.readFileSync('./Euphparty.json', 'utf8'))
     moveset = "";
     for (var i = 0; i < 6; i++) {
         try {
@@ -84,6 +114,7 @@ function ShowMovesetPokemon(pokemonName, playerName) {
 }
 
 function ShowMovesetNickname(pokemonNickname, playerName) {
+    EUPH_POKELINK =JSON.parse(fs.readFileSync('./Euphparty.json', 'utf8'))
     moveset = "";
     for (var i = 0; i < 6; i++) {
         try {
@@ -110,6 +141,7 @@ function ShowMovesetNickname(pokemonNickname, playerName) {
 }
 
 function ShowPokemon(player) {
+    EUPH_POKELINK =JSON.parse(fs.readFileSync('./Euphparty.json', 'utf8'))
     // Depending on player we go to another JSON
     if (player == "Euph") {
         pokemon_list = ["For Euph: \n"];

@@ -12,7 +12,7 @@ async function main() {
   const Base = root.lookupType('Pokelink.Core.Proto.V1.Base');
   const PartyMessage = root.lookupType('Pokelink.Core.Proto.V1.PartyMessage');
 
-  const ws = new WebSocket('ws://127.0.0.1:'+ServerPort+'/?user=Euph');
+  const ws = new WebSocket('ws://127.0.0.1:' + ServerPort);
 
   ws.on('open', () => {
     ws.send(JSON.stringify({
@@ -31,18 +31,19 @@ async function main() {
 
     if (channel === 'client:party:updated') {
       const decoded = PartyMessage.decode(data);
-      console.log(JSON.stringify(PartyMessage.toObject(decoded), null, 2));
-      jsonData = JSON.stringify(PartyMessage.toObject(decoded));
-      // Writing party data to a text file
-      fs.writeFile("EuphParty.json", jsonData, function(err) {
+      const obj = PartyMessage.toObject(decoded);
+      // console.log(JSON.stringify(obj, null, 2));
+
+      const jsonData = JSON.stringify(obj);
+      const filename = `${obj.username}Party.json`; // e.g. EuphParty.json, OtherUserParty.json
+
+      fs.writeFile(filename, jsonData, function (err) {
         if (err) {
-            console.log(err);
+          console.log(err);
         }
-});
+      });
     } else {
-      console.log('No matching schema yet for this channel — length:', data.length);
-    }
-  });
-}
+      // console.log('No matching schema yet for this channel — length:', data.length);
+    }},)}
 
 main();

@@ -9,10 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "TwitchBot":"node ./bot.mjs",
-    "IvyParty":"node ./PartyIvy.cjs",
-    "EuphParty":"node ./PartyEuph.cjs",
-    "UpdateParties":"concurrently \"npm run EuphParty\" \"npm run IvyParty\" ",
-    "UpdatePartiesRunBot":"concurrently \"npm run EuphParty\" \"npm run IvyParty\" \"npm run TwitchBot\" "
+    "UpdateParty":"node ./UpdateParties.cjs",
+    "UpdatePartiesRunBot":"concurrently \"npm run UpdateParty\" \"npm run TwitchBot\" "
   },
   "dependencies": {
     "fs": "^0.0.1-security",
