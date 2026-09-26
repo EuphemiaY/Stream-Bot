@@ -1,0 +1,796 @@
+{
+    "channel": "client:party:updated",
+    "username": "IvyRolls",
+    "party": [
+        {
+            "pokemon": {
+                "pid": {
+                    "low": 558186928,
+                    "high": 0,
+                    "unsigned": true
+                },
+                "exp": 557,
+                "level": 27,
+                "field4": 21017,
+                "field5": 21952,
+                "field6": 58.79241956809167,
+                "hp": {
+                    "max": 68,
+                    "current": 68
+                },
+                "moves": [
+                    {
+                        "moveId": 446,
+                        "pp": 20,
+                        "maxPp": 20,
+                        "info": {
+                            "name": "Stealth Rock",
+                            "type": "Rock"
+                        },
+                        "infoDuplicate": {
+                            "name": "Stealth Rock",
+                            "type": "Rock"
+                        }
+                    },
+                    {
+                        "moveId": 450,
+                        "pp": 20,
+                        "maxPp": 20,
+                        "info": {
+                            "name": "Bug Bite",
+                            "type": "Bug"
+                        },
+                        "infoDuplicate": {
+                            "name": "Bug Bite",
+                            "type": "Bug"
+                        }
+                    },
+                    {
+                        "moveId": 479,
+                        "pp": 15,
+                        "maxPp": 15,
+                        "info": {
+                            "name": "Smack Down",
+                            "type": "Rock"
+                        },
+                        "infoDuplicate": {
+                            "name": "Smack Down",
+                            "type": "Rock"
+                        }
+                    },
+                    {
+                        "moveId": 397,
+                        "pp": 20,
+                        "maxPp": 20,
+                        "info": {
+                            "name": "Rock Polish",
+                            "type": "Rock"
+                        },
+                        "infoDuplicate": {
+                            "name": "Rock Polish",
+                            "type": "Rock"
+                        }
+                    }
+                ],
+                "ivs": {
+                    "atk": 21,
+                    "def": 8,
+                    "spatk": 31,
+                    "spdef": 12,
+                    "speed": 3,
+                    "hp": 18
+                },
+                "evs": {
+                    "speed": 14
+                },
+                "localizedNames": {
+                    "primary": {
+                        "speciesName": "Dwebble",
+                        "status": "Healthy",
+                        "types": [
+                            "Bug",
+                            "Rock"
+                        ],
+                        "hiddenPowerType": "Bug",
+                        "pokeballName": "Great Ball",
+                        "abilityName": "Shell Armor",
+                        "isShinyText": "No",
+                        "locationMetName": "Desert Resort",
+                        "natureName": "Bashful"
+                    },
+                    "secondary": {
+                        "speciesName": "Dwebble",
+                        "status": "Healthy",
+                        "types": [
+                            "Bug",
+                            "Rock"
+                        ],
+                        "hiddenPowerType": "Bug",
+                        "pokeballName": "Great Ball",
+                        "abilityName": "Shell Armor",
+                        "isShinyText": "No",
+                        "locationMetName": "Desert Resort",
+                        "natureName": "Bashful"
+                    }
+                },
+                "color": "Red",
+                "spriteUrl": "$POKELINK_HOST/assets:/assets/sprites/pokemon/home/normal/dwebble.png",
+                "iconUrl": "$POKELINK_HOST/pokelink:/pkhex/img/sprites/a_557.png",
+                "nickname": "Fine bros",
+                "heldItemId": 6,
+                "abilityId": 18,
+                "locationMetId": 3,
+                "field27": 122,
+                "field28": 75,
+                "levelMet": 34,
+                "calculatedStats": {
+                    "atk": 45,
+                    "def": 53,
+                    "spatk": 32,
+                    "spdef": 27,
+                    "speed": 36,
+                    "hp": 68
+                },
+                "pidString": "558186928"
+            },
+            "field2": 2154
+        },
+        {
+            "pokemon": {
+                "pid": {
+                    "low": 1402115386,
+                    "high": 0,
+                    "unsigned": true
+                },
+                "exp": 505,
+                "level": 27,
+                "field4": 20499,
+                "field5": 21952,
+                "field6": 35.96297928602909,
+                "hp": {
+                    "max": 76,
+                    "current": 76
+                },
+                "moves": [
+                    {
+                        "moveId": 95,
+                        "pp": 20,
+                        "maxPp": 20,
+                        "info": {
+                            "name": "Hypnosis",
+                            "type": "Psychic"
+                        },
+                        "infoDuplicate": {
+                            "name": "Hypnosis",
+                            "type": "Psychic"
+                        }
+                    },
+                    {
+                        "moveId": 197,
+                        "pp": 5,
+                        "maxPp": 5,
+                        "info": {
+                            "name": "Detect",
+                            "type": "Fighting"
+                        },
+                        "infoDuplicate": {
+                            "name": "Detect",
+                            "type": "Fighting"
+                        }
+                    },
+                    {
+                        "moveId": 44,
+                        "pp": 25,
+                        "maxPp": 25,
+                        "info": {
+                            "name": "Bite",
+                            "type": "Dark"
+                        },
+                        "infoDuplicate": {
+                            "name": "Bite",
+                            "type": "Dark"
+                        }
+                    },
+                    {
+                        "moveId": 91,
+                        "pp": 10,
+                        "maxPp": 10,
+                        "info": {
+                            "name": "Dig",
+                            "type": "Ground"
+                        },
+                        "infoDuplicate": {
+                            "name": "Dig",
+                            "type": "Ground"
+                        }
+                    }
+                ],
+                "ivs": {
+                    "atk": 22,
+                    "def": 20,
+                    "spatk": 29,
+                    "spdef": 14,
+                    "speed": 30,
+                    "hp": 28
+                },
+                "evs": {
+                    "atk": 6,
+                    "def": 3,
+                    "spatk": 4,
+                    "speed": 11
+                },
+                "localizedNames": {
+                    "primary": {
+                        "speciesName": "Watchog",
+                        "status": "Healthy",
+                        "types": [
+                            "Normal"
+                        ],
+                        "hiddenPowerType": "Poison",
+                        "pokeballName": "Poké Ball",
+                        "abilityName": "Illuminate",
+                        "isShinyText": "No",
+                        "locationMetName": "Route 1",
+                        "natureName": "Serious"
+                    },
+                    "secondary": {
+                        "speciesName": "Watchog",
+                        "status": "Healthy",
+                        "types": [
+                            "Normal"
+                        ],
+                        "hiddenPowerType": "Poison",
+                        "pokeballName": "Poké Ball",
+                        "abilityName": "Illuminate",
+                        "isShinyText": "No",
+                        "locationMetName": "Route 1",
+                        "natureName": "Serious"
+                    }
+                },
+                "color": "Brown",
+                "spriteUrl": "$POKELINK_HOST/assets:/assets/sprites/pokemon/home/normal/watchog.png",
+                "iconUrl": "$POKELINK_HOST/pokelink:/pkhex/img/sprites/a_505.png",
+                "nickname": "Logan Paul",
+                "field19": 240,
+                "heldItemId": 3,
+                "abilityId": 12,
+                "locationMetId": 4,
+                "field27": 255,
+                "field28": 35,
+                "levelMet": 14,
+                "calculatedStats": {
+                    "atk": 57,
+                    "def": 47,
+                    "spatk": 45,
+                    "spdef": 46,
+                    "speed": 55,
+                    "hp": 76
+                },
+                "pidString": "1402115386"
+            },
+            "field2": 2154
+        },
+        {
+            "pokemon": {
+                "pid": {
+                    "low": -1269440993,
+                    "high": 0,
+                    "unsigned": true
+                },
+                "exp": 577,
+                "level": 27,
+                "field4": 15244,
+                "field5": 17242,
+                "hp": {
+                    "max": 66,
+                    "current": 66
+                },
+                "moves": [
+                    {
+                        "moveId": 473,
+                        "pp": 10,
+                        "maxPp": 10,
+                        "info": {
+                            "name": "Psyshock",
+                            "type": "Psychic"
+                        },
+                        "infoDuplicate": {
+                            "name": "Psyshock",
+                            "type": "Psychic"
+                        }
+                    },
+                    {
+                        "moveId": 105,
+                        "pp": 10,
+                        "maxPp": 5,
+                        "info": {
+                            "name": "Recover",
+                            "type": "Normal"
+                        },
+                        "infoDuplicate": {
+                            "name": "Recover",
+                            "type": "Normal"
+                        }
+                    },
+                    {
+                        "moveId": 113,
+                        "pp": 30,
+                        "maxPp": 30,
+                        "info": {
+                            "name": "Light Screen",
+                            "type": "Psychic"
+                        },
+                        "infoDuplicate": {
+                            "name": "Light Screen",
+                            "type": "Psychic"
+                        }
+                    },
+                    {
+                        "moveId": 204,
+                        "pp": 20,
+                        "maxPp": 20,
+                        "info": {
+                            "name": "Charm",
+                            "type": "Normal"
+                        },
+                        "infoDuplicate": {
+                            "name": "Charm",
+                            "type": "Normal"
+                        }
+                    }
+                ],
+                "ivs": {
+                    "atk": 25,
+                    "def": 6,
+                    "spatk": 15,
+                    "spdef": 7,
+                    "speed": 29,
+                    "hp": 21
+                },
+                "evs": {},
+                "localizedNames": {
+                    "primary": {
+                        "speciesName": "Solosis",
+                        "status": "Healthy",
+                        "types": [
+                            "Psychic"
+                        ],
+                        "hiddenPowerType": "Ice",
+                        "pokeballName": "Ultra Ball",
+                        "abilityName": "Magic Guard",
+                        "isShinyText": "No",
+                        "locationMetName": "Route 16",
+                        "natureName": "Docile"
+                    },
+                    "secondary": {
+                        "speciesName": "Solosis",
+                        "status": "Healthy",
+                        "types": [
+                            "Psychic"
+                        ],
+                        "hiddenPowerType": "Ice",
+                        "pokeballName": "Ultra Ball",
+                        "abilityName": "Magic Guard",
+                        "isShinyText": "No",
+                        "locationMetName": "Route 16",
+                        "natureName": "Docile"
+                    }
+                },
+                "color": "Green",
+                "spriteUrl": "$POKELINK_HOST/assets:/assets/sprites/pokemon/home/normal/solosis.png",
+                "iconUrl": "$POKELINK_HOST/pokelink:/pkhex/img/sprites/a_577.png",
+                "nickname": "Keemstar",
+                "heldItemId": 14,
+                "abilityId": 6,
+                "locationMetId": 2,
+                "field27": 119,
+                "field28": 98,
+                "levelMet": 29,
+                "calculatedStats": {
+                    "atk": 27,
+                    "def": 28,
+                    "spatk": 65,
+                    "spdef": 33,
+                    "speed": 23,
+                    "hp": 66
+                },
+                "pidString": "3025526303"
+            },
+            "field2": 2154
+        },
+        {
+            "pokemon": {
+                "pid": {
+                    "low": 764380978,
+                    "high": 0,
+                    "unsigned": true
+                },
+                "exp": 510,
+                "level": 27,
+                "field4": 20547,
+                "field5": 21952,
+                "field6": 38.078448655795505,
+                "hp": {
+                    "max": 76,
+                    "current": 76
+                },
+                "moves": [
+                    {
+                        "moveId": 15,
+                        "pp": 30,
+                        "maxPp": 30,
+                        "info": {
+                            "name": "Cut",
+                            "type": "Normal"
+                        },
+                        "infoDuplicate": {
+                            "name": "Cut",
+                            "type": "Normal"
+                        }
+                    },
+                    {
+                        "moveId": 228,
+                        "pp": 20,
+                        "maxPp": 20,
+                        "info": {
+                            "name": "Pursuit",
+                            "type": "Dark"
+                        },
+                        "infoDuplicate": {
+                            "name": "Pursuit",
+                            "type": "Dark"
+                        }
+                    },
+                    {
+                        "moveId": 252,
+                        "pp": 10,
+                        "maxPp": 10,
+                        "info": {
+                            "name": "Fake Out",
+                            "type": "Normal"
+                        },
+                        "infoDuplicate": {
+                            "name": "Fake Out",
+                            "type": "Normal"
+                        }
+                    },
+                    {
+                        "moveId": 259,
+                        "pp": 15,
+                        "maxPp": 15,
+                        "info": {
+                            "name": "Torment",
+                            "type": "Dark"
+                        },
+                        "infoDuplicate": {
+                            "name": "Torment",
+                            "type": "Dark"
+                        }
+                    }
+                ],
+                "ivs": {
+                    "atk": 11,
+                    "def": 3,
+                    "spatk": 12,
+                    "spdef": 17,
+                    "speed": 15,
+                    "hp": 18
+                },
+                "evs": {
+                    "atk": 2,
+                    "def": 2,
+                    "speed": 7
+                },
+                "localizedNames": {
+                    "primary": {
+                        "speciesName": "Liepard",
+                        "status": "Healthy",
+                        "types": [
+                            "Dark"
+                        ],
+                        "hiddenPowerType": "Water",
+                        "pokeballName": "Poké Ball",
+                        "abilityName": "Unburden",
+                        "isShinyText": "No",
+                        "locationMetName": "Route 2",
+                        "natureName": "Brave"
+                    },
+                    "secondary": {
+                        "speciesName": "Liepard",
+                        "status": "Healthy",
+                        "types": [
+                            "Dark"
+                        ],
+                        "hiddenPowerType": "Water",
+                        "pokeballName": "Poké Ball",
+                        "abilityName": "Unburden",
+                        "isShinyText": "No",
+                        "locationMetName": "Route 2",
+                        "natureName": "Brave"
+                    }
+                },
+                "color": "Purple",
+                "spriteUrl": "$POKELINK_HOST/assets:/assets/sprites/pokemon/home/normal/liepard.png",
+                "iconUrl": "$POKELINK_HOST/pokelink:/pkhex/img/sprites/a_510.png",
+                "nickname": "Mr.Beast",
+                "heldItemId": 10,
+                "abilityId": 2,
+                "locationMetId": 4,
+                "field27": 248,
+                "field28": 84,
+                "levelMet": 15,
+                "calculatedStats": {
+                    "atk": 60,
+                    "def": 32,
+                    "spatk": 55,
+                    "spdef": 36,
+                    "speed": 59,
+                    "hp": 76
+                },
+                "pidString": "764380978"
+            },
+            "field2": 2154
+        },
+        {
+            "pokemon": {
+                "pid": {
+                    "low": 668450988,
+                    "high": 0,
+                    "unsigned": true
+                },
+                "exp": 536,
+                "level": 27,
+                "field4": 15714,
+                "field5": 17242,
+                "field6": 23.523523523523522,
+                "hp": {
+                    "max": 78,
+                    "current": 78
+                },
+                "moves": [
+                    {
+                        "moveId": 341,
+                        "pp": 15,
+                        "maxPp": 15,
+                        "info": {
+                            "name": "Mud Shot",
+                            "type": "Ground"
+                        },
+                        "infoDuplicate": {
+                            "name": "Mud Shot",
+                            "type": "Ground"
+                        }
+                    },
+                    {
+                        "moveId": 48,
+                        "pp": 20,
+                        "maxPp": 20,
+                        "info": {
+                            "name": "Supersonic",
+                            "type": "Normal"
+                        },
+                        "infoDuplicate": {
+                            "name": "Supersonic",
+                            "type": "Normal"
+                        }
+                    },
+                    {
+                        "moveId": 392,
+                        "pp": 20,
+                        "maxPp": 20,
+                        "info": {
+                            "name": "Aqua Ring",
+                            "type": "Water"
+                        },
+                        "infoDuplicate": {
+                            "name": "Aqua Ring",
+                            "type": "Water"
+                        }
+                    },
+                    {
+                        "moveId": 61,
+                        "pp": 20,
+                        "maxPp": 20,
+                        "info": {
+                            "name": "Bubble Beam",
+                            "type": "Water"
+                        },
+                        "infoDuplicate": {
+                            "name": "Bubble Beam",
+                            "type": "Water"
+                        }
+                    }
+                ],
+                "ivs": {
+                    "atk": 21,
+                    "def": 3,
+                    "spatk": 3,
+                    "spdef": 8,
+                    "speed": 30,
+                    "hp": 3
+                },
+                "evs": {
+                    "atk": 14,
+                    "spatk": 1,
+                    "speed": 8,
+                    "hp": 1
+                },
+                "localizedNames": {
+                    "primary": {
+                        "speciesName": "Palpitoad",
+                        "status": "Healthy",
+                        "types": [
+                            "Water",
+                            "Ground"
+                        ],
+                        "hiddenPowerType": "Rock",
+                        "pokeballName": "Great Ball",
+                        "abilityName": "Hydration",
+                        "isShinyText": "No",
+                        "locationMetName": "Pinwheel Forest",
+                        "natureName": "Lax"
+                    },
+                    "secondary": {
+                        "speciesName": "Palpitoad",
+                        "status": "Healthy",
+                        "types": [
+                            "Water",
+                            "Ground"
+                        ],
+                        "hiddenPowerType": "Rock",
+                        "pokeballName": "Great Ball",
+                        "abilityName": "Hydration",
+                        "isShinyText": "No",
+                        "locationMetName": "Pinwheel Forest",
+                        "natureName": "Lax"
+                    }
+                },
+                "color": "Blue",
+                "spriteUrl": "$POKELINK_HOST/assets:/assets/sprites/pokemon/home/normal/palpitoad.png",
+                "iconUrl": "$POKELINK_HOST/pokelink:/pkhex/img/sprites/a_536.png",
+                "nickname": "XQC",
+                "heldItemId": 5,
+                "abilityId": 9,
+                "locationMetId": 3,
+                "field27": 226,
+                "field28": 93,
+                "levelMet": 33,
+                "calculatedStats": {
+                    "atk": 46,
+                    "def": 38,
+                    "spatk": 40,
+                    "spdef": 32,
+                    "speed": 50,
+                    "hp": 78
+                },
+                "pidString": "668450988"
+            },
+            "field2": 2154
+        },
+        {
+            "pokemon": {
+                "pid": {
+                    "low": 1424587924,
+                    "high": 0,
+                    "unsigned": true
+                },
+                "exp": 562,
+                "level": 27,
+                "field4": 19683,
+                "field5": 21952,
+                "hp": {
+                    "max": 64,
+                    "current": 64
+                },
+                "moves": [
+                    {
+                        "moveId": 50,
+                        "pp": 20,
+                        "maxPp": 20,
+                        "info": {
+                            "name": "Disable",
+                            "type": "Normal"
+                        },
+                        "infoDuplicate": {
+                            "name": "Disable",
+                            "type": "Normal"
+                        }
+                    },
+                    {
+                        "moveId": 466,
+                        "pp": 5,
+                        "maxPp": 5,
+                        "info": {
+                            "name": "Ominous Wind",
+                            "type": "Ghost"
+                        },
+                        "infoDuplicate": {
+                            "name": "Ominous Wind",
+                            "type": "Ghost"
+                        }
+                    },
+                    {
+                        "moveId": 101,
+                        "pp": 15,
+                        "maxPp": 15,
+                        "info": {
+                            "name": "Night Shade",
+                            "type": "Ghost"
+                        },
+                        "infoDuplicate": {
+                            "name": "Night Shade",
+                            "type": "Ghost"
+                        }
+                    },
+                    {
+                        "moveId": 506,
+                        "pp": 10,
+                        "maxPp": 10,
+                        "info": {
+                            "name": "Hex",
+                            "type": "Ghost"
+                        },
+                        "infoDuplicate": {
+                            "name": "Hex",
+                            "type": "Ghost"
+                        }
+                    }
+                ],
+                "ivs": {
+                    "def": 2,
+                    "spatk": 28,
+                    "spdef": 20,
+                    "hp": 24
+                },
+                "evs": {},
+                "localizedNames": {
+                    "primary": {
+                        "speciesName": "Yamask",
+                        "status": "Healthy",
+                        "types": [
+                            "Ghost"
+                        ],
+                        "hiddenPowerType": "Normal",
+                        "pokeballName": "Great Ball",
+                        "abilityName": "Mummy",
+                        "isShinyText": "No",
+                        "locationMetName": "Relic Castle",
+                        "natureName": "Hasty"
+                    },
+                    "secondary": {
+                        "speciesName": "Yamask",
+                        "status": "Healthy",
+                        "types": [
+                            "Ghost"
+                        ],
+                        "hiddenPowerType": "Normal",
+                        "pokeballName": "Great Ball",
+                        "abilityName": "Mummy",
+                        "isShinyText": "No",
+                        "locationMetName": "Relic Castle",
+                        "natureName": "Hasty"
+                    }
+                },
+                "color": "Black",
+                "spriteUrl": "$POKELINK_HOST/assets:/assets/sprites/pokemon/home/normal/yamask.png",
+                "iconUrl": "$POKELINK_HOST/pokelink:/pkhex/img/sprites/a_562.png",
+                "nickname": "Smosh",
+                "abilityId": 11,
+                "locationMetId": 3,
+                "field27": 142,
+                "field28": 152,
+                "levelMet": 35,
+                "calculatedStats": {
+                    "atk": 21,
+                    "def": 45,
+                    "spatk": 42,
+                    "spdef": 45,
+                    "speed": 23,
+                    "hp": 64
+                },
+                "pidString": "1424587924"
+            },
+            "field2": 2154
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+syntax = "proto3";
+package Pokelink.Core.Proto.V1;
+
+message Base {
+  string channel = 1;
+}
+
+message PartyMessage {
+  string channel = 1;
+  string username = 2;
+  repeated PartyObject party = 3;
+}
+
+message PartyObject {
+  optional Pokemon pokemon = 1;
+  uint32 field2 = 2; // constant (26) across all party members in one message — likely a session/change counter, not a per-slot id
+}
+
+message HP {
+  uint32 max = 1;
+  uint32 current = 2;
+}
+
+message MoveInfo {
+  string name = 1;
+  string type = 2;
+}
+
+message Move {
+  uint32 moveId = 1;   // matches real internal move IDs (33 = Tackle, etc.)
+  uint32 pp = 2;
+  uint32 maxPp = 3;
+  MoveInfo info = 4;
+  MoveInfo infoDuplicate = 5; // identical to field 4 in every sample so far
+}
+
+message StatBlock {
+  optional uint32 atk = 1;
+  optional uint32 def = 2;
+  optional uint32 spatk = 3;
+  optional uint32 spdef = 4;
+  optional uint32 speed = 5;
+  optional uint32 hp = 6;
+}
+
+message LocalizedInfo {
+  string speciesName = 1;
+  string status = 2;
+  repeated string types = 3;      // repeated for dual-type (e.g. Normal + Flying)
+  string hiddenPowerType = 7;
+  string pokeballName = 8;
+  string abilityName = 9;
+  string isShinyText = 10;        // "Yes"/"No"
+  string locationMetName = 11;
+  string natureName = 12;
+}
+
+message LocalizedNames {
+  LocalizedInfo primary = 1;
+  LocalizedInfo secondary = 2;    // identical to primary so far — maybe a second locale
+}
+
+message Pokemon {
+  uint64 pid = 1;
+  uint32 exp = 2;
+  uint32 level = 3;
+  uint32 field4 = 4;              // unconfirmed
+  uint32 field5 = 5;              // unconfirmed
+  optional double field6 = 6;     // unconfirmed, omitted on some entries
+  HP hp = 7;
+  repeated Move moves = 8;
+  StatBlock ivs = 9;
+  StatBlock evs = 10;
+  LocalizedNames localizedNames = 13;
+  string color = 15;
+  string spriteUrl = 16;
+  string iconUrl = 17;
+  string nickname = 18;
+  uint32 field19 = 19;
+  uint32 isFemale = 20;
+  uint32 isShiny = 21;
+  uint32 isGenderless = 22;
+  uint32 heldItemId = 23;
+  uint32 abilityId = 24;
+  uint32 pokerus = 25;
+  uint32 locationMetId = 26;
+  uint32 field27 = 27;            
+  uint32 field28 = 28;            
+  uint32 pokeballId = 29;
+  uint32 levelMet = 30;        // subtract... actually ADD 1 to this value when displaying
+  uint32 hiddenPowerPower = 33; // confirmed
+  StatBlock calculatedStats = 34;
+  uint32 field35 = 35;
+  float field36 = 36;
+  string pidString = 37;
+}

@@ -1,5 +1,5 @@
 import WebSocket from 'ws';
-import * as pokelink from "./PokelinkBot/format party.cjs"
+import * as pokelink from "./format party.cjs"
 import * as credentials from "./keys.cjs"
 
 console.log({
