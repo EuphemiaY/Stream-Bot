@@ -84,7 +84,6 @@ function NickNameFinder(pokemonNickname) {
 }
 
 function ShowMovesetPokemon(pokemonName, playerName) {
-    EUPH_POKELINK =JSON.parse(fs.readFileSync('./Euphparty.json', 'utf8'))
     moveset = "";
     for (var i = 0; i < 6; i++) {
         try {
@@ -112,7 +111,6 @@ function ShowMovesetPokemon(pokemonName, playerName) {
 }
 
 function ShowMovesetNickname(pokemonNickname, playerName) {
-    EUPH_POKELINK =JSON.parse(fs.readFileSync('./Euphparty.json', 'utf8'))
     moveset = "";
     for (var i = 0; i < 6; i++) {
         try {
@@ -139,7 +137,6 @@ function ShowMovesetNickname(pokemonNickname, playerName) {
 }
 
 function ShowPokemon(player) {
-    EUPH_POKELINK =JSON.parse(fs.readFileSync('./Euphparty.json', 'utf8'))
     // Depending on player we go to another JSON
     if (player == "Euph") {
         pokemon_list = ["For Euph: \n"];
